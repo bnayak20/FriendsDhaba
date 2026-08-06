@@ -98,7 +98,7 @@ const menuSections = [
       ["Tandoori Chicken", 200, 400],      
       ["Afghani Chicken", 240, 450],
       ["Chicken Tikka", 150, 250],
-      ["Chicken Malai Tikka", 200, 320]
+      ["Chicken Malai Tikka", 200, 320],
       ["Fish Tikka", null, 350]      
     ]
   },
@@ -181,7 +181,7 @@ const menuSections = [
     items: [
       ["Veg Roll", null, 80],
       ["Egg Roll", null, 100],
-      ["Cheese Roll", null, 100]
+      ["Cheese Roll", null, 100],
       ["Chicken Roll", null, 120]      
     ]
   },
