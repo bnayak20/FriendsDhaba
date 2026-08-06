@@ -3,7 +3,6 @@ services:
     name: friends-dhaba-menu-bnayak20
     runtime: static
     plan: free
-    rootDir: MenuQR
     buildCommand: echo "Static menu ready"
     staticPublishPath: .
     autoDeployTrigger: commit
