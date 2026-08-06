@@ -26,6 +26,22 @@ footer {
   padding-top: 72px;
 }
 
+.menu-banner {
+  margin: 0 0 38px;
+  overflow: hidden;
+  border: 1px solid rgba(232, 164, 43, 0.35);
+  border-radius: 26px;
+  background: #0d0c0a;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+}
+
+.menu-banner img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+}
+
 #menu .section-header {
   display: block;
   padding-bottom: 28px;
@@ -507,6 +523,11 @@ footer {
 
   .food-gallery {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .menu-banner {
+    margin-bottom: 28px;
+    border-radius: 18px;
   }
 
   .restaurant-info {
