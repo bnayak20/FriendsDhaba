@@ -105,20 +105,21 @@
           </div>
         </div>
       </aside>
-      <div class="food-gallery" aria-label="Popular Indian food">
-        <figure class="food-photo food-photo-large">
-          <img src="images/veg-thali.png" alt="Veg thali with dal, vegetable, rice, roti, raita and salad" loading="eager" />
-          <figcaption>Veg Thali</figcaption>
-        </figure>
-        <figure class="food-photo">
-          <img src="images/deluxe-veg-thali.png" alt="Deluxe veg thali with paneer, dal, rice, roti, raita and gulab jamun" loading="lazy" />
-          <figcaption>Deluxe Veg Thali</figcaption>
-        </figure>
-        <figure class="food-photo">
-          <img src="images/aloo-pyaz-paratha.png" alt="Aloo pyaz paratha served with raita and pickle" loading="lazy" />
-          <figcaption>Aloo Pyaz Paratha</figcaption>
-        </figure>
-      </div>
+      <section class="gallery-section" aria-labelledby="gallery-title">
+        <div class="gallery-heading">
+          <div>
+            <span class="menu-kicker">Fresh from our kitchen</span>
+            <h2 id="gallery-title">Friends Dhaba Gallery</h2>
+          </div>
+          <p>Swipe or use the arrows to explore our favourites.</p>
+        </div>
+        <div id="react-gallery">
+          <figure class="gallery-loading">
+            <img src="images/gallery/handi-chicken.png" alt="Handi Chicken" />
+            <figcaption>Handi Chicken</figcaption>
+          </figure>
+        </div>
+      </section>
       <div class="menu-note">Half and full prices are shown exactly where both portions are available.</div>
       <div id="complete-menu" class="menu-split complete-menu" aria-live="polite"></div>
       <div class="menu-split">
@@ -296,6 +297,9 @@
       <p>Friends Dhaba © 2026</p>
     </footer>
   </div>
+  <script crossorigin src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+  <script src="gallery.js"></script>
   <script src="menu.js"></script>
 </body>
 </html>

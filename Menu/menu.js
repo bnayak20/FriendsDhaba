@@ -2,18 +2,18 @@ const menuSections = [
   {
     title: "Breakfast Special",
     items: [
-      ["Aloo Paratha", null, 30],
+      ["Aloo Paratha", null, 40],
       ["Gobhi Paratha", null, 40],
       ["Mooli Paratha", null, 40],
       ["Mix Veg Paratha", null, 50],
-      ["Paneer Paratha", null, 50],
-      ["Egg Paratha", null, 60]
+      ["Paneer Paratha", null, 70],
+      ["Egg Paratha", null, 70]
     ]
   },
   {
     title: "Punjabi Dal Ka Swad",
     items: [
-      ["Dal Makhani", 100, 180],
+      ["Dal Makhani", 100, 170],
       ["Dal Fry", 70, 110],
       ["Yellow Dal", 70, 110],
       ["Dal Mughlai (with Egg)", 120, 200],
@@ -28,7 +28,7 @@ const menuSections = [
       ["Shahi Paneer", 150, 280],
       ["Kadhai Paneer", 150, 280],
       ["Matar Paneer", 140, 250],
-      ["Paneer Butter Masala", 170, 280],
+      ["Paneer Butter Masala", null, 170],
       ["Paneer Bhurji", 170, 300],
       ["Palak Paneer", 170, 300],
       ["Malai Kofta", 170, 300]
@@ -38,29 +38,29 @@ const menuSections = [
     title: "Punjabi Vegetable Ka Zaika",
     items: [
       ["Matar Mushroom", 140, 240],
-      ["Mushroom Masala", 140, 240],
+      ["Mushroom Masala", null, 140],
       ["Mix Veg Do Pyaza", 140, 240],
-      ["Aloo Gobi", 120, 200],
+      ["Aloo Gobi", null, 120],
       ["Gobhi Masala", 120, 200],
-      ["Aloo Matar", 120, 180],
+      ["Aloo Matar", null, 120],
       ["Aloo Palak", 110, 180],
       ["Bharwa Baingan", 110, 190],
       ["Bhindi", 110, 180],
       ["Kadhai Veg", 110, 180],
-      ["Mix Veg", 100, 170],
+      ["Mix Veg", null, 120],
       ["Aloo Jeera", 100, 180],
-      ["Methi Malai Matar", 140, 260],
+      ["Methi Malai Matar", null, 140],
       ["Sev Bhaji", 140, 220]
     ]
   },
   {
     title: "Punjabi Veg & Chinese Starters",
     items: [
-      ["Cheese Chilli", 150, 280],
+      ["Cheese Chilli", null, 150],
       ["Chilli Paneer", 150, 280],
       ["Chilli Mushroom", 140, 260],
       ["Cheese Corn", 140, 250],
-      ["Crunchy Corn", 140, 220],
+      ["Crunchy Corn", null, 140],
       ["Honey Chilli Potato", null, 200],
       ["Chilli Fried Cauliflower", null, 200],
       ["Manchurian Dry / Gravy", null, 200],
@@ -70,24 +70,24 @@ const menuSections = [
   {
     title: "Non-Veg Starters",
     items: [
-      ["Chicken Pakora", 250, 400],
+      ["Chicken Pakora", null, 180],
       ["Chicken Tikka (with Bones)", 250, 400],
       ["Chilli Chicken", 250, 400],
-      ["Chicken Lollipop", 250, 400],
+      ["Chicken Lollipop", null, 200],
       ["Chicken Manchurian (Boneless)", 300, 500]
     ]
   },
   {
     title: "Tandoor & Seekh",
     items: [
-      ["Masala Chaap", 140, 200],
+      ["Masala Chaap", null, 160],
       ["Malai Chaap", 140, 200],
       ["Mushroom Tikka", 140, 250],
       ["Paneer Malai Tikka", 140, 250],
-      ["Paneer Tikka", 150, 280],
-      ["Afghani Chicken", 240, 450],
-      ["Chicken Tikka", 200, 350],
-      ["Chicken Malai Tikka", 200, 320]
+      ["Paneer Tikka", null, 180],
+      ["Afghani Chicken", null, 250],
+      ["Chicken Tikka", null, 250],
+      ["Chicken Malai Tikka", null, 240]
     ]
   },
   {
@@ -124,43 +124,43 @@ const menuSections = [
       ["Hakka Noodles", null, 120],
       ["Garlic Noodles", null, 140],
       ["Veg Noodles", null, 120],
-      ["Egg Noodles", null, 140],
+      ["Egg Noodles", null, 130],
       ["Friends Special Noodles", null, 170],
-      ["Chicken Noodles", null, 180]
+      ["Chicken Noodles", null, 150]
     ]
   },
   {
     title: "Rice",
     items: [
-      ["Steam Rice", null, 120],
-      ["Jeera Rice", null, 140],
-      ["Egg Fried Rice", null, 180],
+      ["Steam Rice", null, 100],
+      ["Jeera Rice", null, 120],
+      ["Egg Fried Rice", null, 150],
       ["Chicken Biryani", null, 200],
-      ["Fried Rice", null, 180]
+      ["Fried Rice", null, 140]
     ]
   },
   {
     title: "Thali · No Refill",
     items: [
-      ["Veg Thali", null, 70],
-      ["Paneer Thali", null, 120],
+      ["Veg Thali", null, 80],
+      ["Paneer Thali", null, 150],
       ["Special Paneer Thali", null, 150],
       ["Egg Thali", null, 100],
-      ["Fish Thali", null, 150],
-      ["Chicken Thali", null, 160],
-      ["Special Chicken Thali", null, 180],
+      ["Fish Thali", null, 250],
+      ["Chicken Thali", null, 180],
+      ["Special Chicken Thali", null, 220],
       ["Mutton Thali", null, 250]
     ]
   },
   {
     title: "Fish",
     items: [
-      ["Fish Crunchy", 250, 500],
+      ["Fish Crunchy", null, 250],
       ["Fish Fry (Desi Shigara)", 250, 500],
-      ["Fish Curry", 250, 500],
+      ["Fish Curry", null, 320],
       ["Fish Curry (5 pc)", 300, 600],
       ["Malai Fish", 300, 600],
-      ["Fish Tikka", 300, 600],
+      ["Fish Tikka", null, 280],
       ["Pomfret Fish (1 pc)", null, 250]
     ]
   },
