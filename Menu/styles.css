@@ -212,7 +212,7 @@ header {
 
 .hero {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
+  grid-template-columns: 1fr;
   gap: 36px;
   align-items: center;
   padding: 60px 28px 80px;

@@ -1,6 +1,6 @@
 # Friends Dhaba
 
-A mobile-friendly digital menu for Friends Dhaba. The website is in `MenuQR/` and is configured as a free Render static site through `render.yaml`.
+A mobile-friendly digital menu for Friends Dhaba. The website is in `Menu/`, with image assets organized in `Menu/images/`, and is configured for Render through `render.yaml`.
 
 ## Render deployment
 
