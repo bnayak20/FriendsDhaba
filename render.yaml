@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: friends-dhaba-menu-bnayak20
+    runtime: static
+    plan: free
+    rootDir: MenuQR
+    buildCommand: echo "Static menu ready"
+    staticPublishPath: .
+    autoDeployTrigger: commit
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
